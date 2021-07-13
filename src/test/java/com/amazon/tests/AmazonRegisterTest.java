@@ -7,11 +7,9 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class AmazonRegisterTest {
+    public class AmazonRegisterTest {
 
     AmazonRegisterPage amazonRegisterPage = new AmazonRegisterPage();
-
-
 
     @Test
     public void amazonRegisterTest(){
