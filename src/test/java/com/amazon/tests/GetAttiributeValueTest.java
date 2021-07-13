@@ -12,7 +12,6 @@ public class GetAttiributeValueTest {
     /* Herhangi bir web elementin herhangi bir attiribute degerini nasil aliriz?
     Bir web elementin css ozelligi nasil alinabilir? Ornegin yazi rengi
      */
-    AmazonRegisterTest amazonRegisterTest = new AmazonRegisterTest();
 
     @Test
     public void AmazonRegisterTest(){
