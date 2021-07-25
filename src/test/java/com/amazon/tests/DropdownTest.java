@@ -28,6 +28,7 @@ public class DropdownTest {
     //sonra
     List<WebElement> options = select.getOptions();
 
+    // for each ile webelemenleri yazdiriyoruz
     for (WebElement w : options) {
         System.out.println(w.getText());
     }

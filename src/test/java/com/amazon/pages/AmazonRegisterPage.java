@@ -54,7 +54,7 @@ public class AmazonRegisterPage {
     //entering the costumer Name
     public void customerName(){
 
-        Driver.getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+    Driver.getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
     }
 

@@ -11,7 +11,7 @@ import java.util.List;
 public class AlphabeticalOrder {
 
 
-    // Seceneklerin harf sirasina gore sirali olup olmadigini nasil kontrol edebiliriz?
+    // Dropdown da Seceneklerin harf sirasina gore sirali olup olmadigini nasil kontrol edebiliriz?
 
     @Test
     public void alhabeticalOrder(){

@@ -1,0 +1,27 @@
+* Dropdown icerisindeki tum secenekler nasil alinabilir? -->ALL Dropdown
+
+select class yardimiyla bir oject olusturuyoruz
+daha sonra select.getOptions(); metodu kullanarak tum secenekleri aliyoruz
+select.getOptions(); metodu bize liste seklinde veriyor
+List<WebElement> diyerek listeye ekliyoruz
+ve for (WebElement w: secenekler)
+@Test
+    public void dropDownTest() {
+    Driver.getDriver().get(ConfigurationReader.getPropery("url"));
+
+    WebElement dropdown = Driver.getDriver().findElement(By.id("searchDropdownBox"));
+                              findelementBy ile elementin locator ini aliyoruz
+
+    //Select Class ini kullanarak DropDown uzerinde islem yapabiliyoruz.
+    Select select = new Select(dropdown); // First create an object from select class and send parameter (dropdown)
+    //-->select.getOptions(); //Tum secenekleri almak icin kullandigimiz method. Bize liste seklinde getiriyor
+    //sonra
+    List<WebElement> options = select.getOptions();
+
+
+    for (WebElement w : options) {
+        System.out.println(w.getText());
+
+
+* Herhangibir secenek nasil alinabilir?
+* Seceneklerin harf sirasina gore sirali olup olmadigini nasil kontrol edebiliriz?
