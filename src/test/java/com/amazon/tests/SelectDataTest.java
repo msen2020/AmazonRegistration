@@ -25,7 +25,6 @@ public class SelectDataTest {
         WebElement july30 = Driver.getDriver().findElement(By.xpath("//div[@aria-label='Choose Friday, July 30th, 2021']"));
         july30.click();
 
-
     }
 
     @Test
