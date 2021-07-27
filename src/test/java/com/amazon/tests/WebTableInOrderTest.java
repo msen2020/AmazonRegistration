@@ -9,6 +9,7 @@ import java.util.List;
 
 public class WebTableInOrderTest {
 
+    // Web elementlerin sirali olup olmadigini nasil kontrol ederiz?
     // https://demoqa.com/webtables
     // //div[@role='row'][1]/div[1]
 

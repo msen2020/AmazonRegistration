@@ -12,7 +12,7 @@ public class DifferentWindowTest {
     ne yaparsiniz?
 
     Her bir pencerenin kendine ait bir windowHandle kodu var
-    windowHandle codunu kullanarak diger pencereye switch() methodu kullanarak gecis yapariz
+    windowHandle cod unu kullanarak diger pencereye switch() methodu kullanarak gecis yapariz
   Driver.getDriver().switchTo().window(pageHandle)
      */
 
