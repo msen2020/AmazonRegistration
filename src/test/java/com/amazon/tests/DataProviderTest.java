@@ -9,7 +9,7 @@ public class DataProviderTest {
 
     @Test(dataProvider = "names")
     public void test(String name, int age){
-        System.out.println(age + "-" + name);
+        System.out.println(name + "-" + age);
 
         }
 

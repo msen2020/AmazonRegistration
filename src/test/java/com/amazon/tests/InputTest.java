@@ -19,7 +19,6 @@ public class InputTest {
         executor.executeScript("document.getElementById('userName').value = 'Mehmet Sen'");
         executor.executeScript("document.getElementById('userEmail').value = 'msen@hotmail.com'");
         executor.executeScript("document.getElementById('currentAddress').value ='Sevilla'");
-
         executor.executeScript("document.getElementById('permanentAddress').value = 'Spain'");
 
 
@@ -27,7 +26,7 @@ public class InputTest {
 
       // WebElement button = Driver.getDriver().findElement(By.id("submit"));
         JavascriptExecutor javascriptExecutor = (JavascriptExecutor) Driver.getDriver();
-        //executor.executeScript("document.getElementById('submit')).click();", button);
+      //  executor.executeScript("document.getElementById('submit')).click();", button);
 
     }
 

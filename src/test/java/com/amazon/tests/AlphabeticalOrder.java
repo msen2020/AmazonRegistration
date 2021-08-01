@@ -2,7 +2,6 @@ package com.amazon.tests;
 
 import com.amazon.utilities.ConfigurationReader;
 import com.amazon.utilities.Driver;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
@@ -14,7 +13,7 @@ public class AlphabeticalOrder {
     // Dropdown da Seceneklerin harf sirasina gore sirali olup olmadigini nasil kontrol edebiliriz?
 
     @Test
-    public void alhabeticalOrder(){
+    public void alphabeticalOrder(){
     Driver.getDriver().get(ConfigurationReader.getPropery("url"));
 
     //WebElement dropdown = Driver.getDriver().findElement(By.id("searchDropdownBox"));
