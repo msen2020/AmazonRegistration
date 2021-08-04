@@ -35,7 +35,6 @@ import org.testng.annotations.Test;
     String Actual_message = amazonRegisterPage.message.getAttribute("aria-label");
     Assert.assertEquals(Actual_message, "Amazon" );
 
-
-
     }
+
 }

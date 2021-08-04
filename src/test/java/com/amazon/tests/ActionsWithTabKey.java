@@ -8,6 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
+//Actions class tan Keys.Tab kullanarak Register yapma
+
 public class ActionsWithTabKey {
 
     @Test
